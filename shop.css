@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section {
+    background-color: #D9D9D9;
+    color: white;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 10px 20px;
+    font-size: 20px;
+ 
+}
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px ;
+  
+}
+nav ul li:hover{
+    text-decoration: dashed;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+#another{
+    margin-top: 1rem;
+}
+#icon{
+    background-color: black;  
+    padding: 8px 10px;  
+    border-radius: 50%;
+   
+}
+#icon i{
+    color: white;    
+}
+#searchbar input[type="text"] {
+    padding: 5px;
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    height:35px;
+
+}
+.photo{
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    
+}
+.areabox{
+    height: 85%;
+    width: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+.box{
+    height:70%;
+    width: 33%;
+    background-color:#353535;
+    margin-bottom: 1rem;
+    color:#ffffff;
+    padding: 10px 0px 3px 10px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5);
+}
+.box1 {
+    background-color: #353535;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.box1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box1 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.box1 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 20px;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.box2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box2 p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.areabox a{
+    background: #212121;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display:inline-block;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+button{
+    border-radius: 2rem;
+    background: #212121;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
