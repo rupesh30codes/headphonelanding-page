@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-color: #D9D9D9;
+    color: white;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#another {
+    margin-top: 1rem;
+}
+
+#icon {
+    background-color: black;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+#icon i {
+    color: white;
+}
+#searchbar input {
+    padding: 5px;
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    height: 35px;
+}
+
+.photo {
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    image-resolution: ;
+}
+
+.contact-form {
+    width: 65%;
+    height: 87.7%;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+h2{
+    margin-top:2rem;
+}
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+.form-group,
+h2,
+button{
+    margin-left: 5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#messageArea {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+.icons {
+    display: flex;
+    margin-left:45px; 
+}
+
+.icons i {
+    color: #4c5dff; 
+    border: 2px solid black; 
+    border-radius: 50%;
+    padding: 10px; 
+    margin: 20px 15px; 
+}
+
+.icons a { 
+    font-weight: bold;
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
